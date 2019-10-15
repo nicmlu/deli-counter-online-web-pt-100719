@@ -12,10 +12,11 @@ line_array = []
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli == 0 
-    puts katz_deli.push("Welcome, #{name}. You are number 1 in line.")
-  else katz_deli.each_with_index do |name, index|
-    katz_deli.push("Welcome, #{name}. You are number #{index + 1} in line.")
-    end
-  end
+  katz_deli.push("Welcome ")
+  # if katz_deli == 0 
+  #   puts katz_deli.push("Welcome, #{name}. You are number 1 in line.")
+  # else katz_deli.each_with_index do |name, index|
+  #   katz_deli.push("Welcome, #{name}. You are number #{index + 1} in line.")
+  #   end
+  # end
 end
