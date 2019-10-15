@@ -13,7 +13,7 @@ def line(people)
 line_array = []
   if people.length == 0 
     puts "The line is currently empty."
-  else people.each_with_index(1) do |name, index|
+  else people.each_with_index do |name, index|
     line_array.push("#{index}. #{name}")
   end
 end
