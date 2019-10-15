@@ -11,6 +11,10 @@ line_array = []
   end
 end
 
-def take_a_number
+def take_a_number(katz_deli, name)
+  if katz_deli == 0 
+    puts katz_deli.push("Welcome, #{name}. You are number 1 in line."
+  else katz_deli.each_with_index do |name, index|
+    katz_deli.
 
 end
