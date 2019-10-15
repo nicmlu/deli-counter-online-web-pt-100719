@@ -13,4 +13,9 @@ def line(people)
 line_array = []
   if line_array.length == 0 
     puts "The line is currently empty."
+  else line_array.each_with_index do |name, index|
+    line_array.push(#{index + 1}, #{name})
+  end
+end
+puts "The line is currently: #{line_array.join(" ")}"
 end
