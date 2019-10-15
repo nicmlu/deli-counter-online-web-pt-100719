@@ -9,4 +9,4 @@ def line(people)
     end
     puts "The line is currently: #{line_array.join(" ")}"
   end
-end 
+end
